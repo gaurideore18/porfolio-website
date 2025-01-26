@@ -104,8 +104,9 @@
 }
 
 .box10>button {
-    position: relative;
-    left: 800px;
+   display:flex;
+    justify-self: center;
+  
     background-color: #A3D8FF;
     color: #FDFFC2;
     padding: 15px;
@@ -147,30 +148,38 @@
     padding: 20px;
 
 }
-@media(max-width:600px){
-    .box5{
-        height: 300px;
-        width:400px;
+@media(max-width:600px  ){
+ .box5{
+        height: 500px;
+        width:250px;
         padding: 10px;
         text-justify: auto;
         margin: 30px;
     
     }
     .box8{
-        height: 350px;
-        width:400px;
+        height: 500px;
+        width:250px;
         padding: 10px;
         text-justify: auto;
         margin: 30px;
     }
     .box9{
-        width: 400px;
+        height: 400px;
+        width: 200px;
         padding: 15px;
         margin: 30px;
 
     }
     .box10{
-        position: relative;
-        right:650px;
+        display: flex;
+        justify-self: center;
     }
+    .box2{
+        gap:30px;
+        padding: 5px;
+    }
+    .box12{
+        gap:30px;
+        padding: 5px;    }
 }
